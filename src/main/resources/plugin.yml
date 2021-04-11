@@ -1,0 +1,12 @@
+name: Wikipop.fun
+version: ${project.version}
+main: wikipop.fun.Main
+api-version: 1.16
+prefix: [ wikipop.fun ]
+authors: [ wikipop ]
+description: wikipop.fun
+website: wikipop.fun
+commands:
+  przerwa:
+    description: §6Zarządzanie przerwą
+    usage: §c/przerwa (on / off / status)
