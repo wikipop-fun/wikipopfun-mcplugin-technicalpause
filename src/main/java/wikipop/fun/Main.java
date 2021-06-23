@@ -34,7 +34,7 @@ public final class Main extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e){
         Player p = e.getPlayer();
-        if(config.getBoolean("przerwaState") == true){
+        if(config.getBoolean("przerwaState")){
             if(!e.getPlayer().hasPermission("wikipop.fun.admin")){
                 String kickMessage = getConfig().getString("pauseMessage");
                 kickMessage = ChatColor.translateAlternateColorCodes('&', kickMessage);
