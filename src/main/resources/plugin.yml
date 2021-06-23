@@ -1,8 +1,8 @@
 name: Wikipop.fun
 version: ${project.version}
 main: wikipop.fun.Main
-api-version: 1.16
-prefix: [ wikipop.fun ]
+api-version: 1.17
+prefix: wikipop.fun
 authors: [ wikipop ]
 description: wikipop.fun
 website: wikipop.fun
